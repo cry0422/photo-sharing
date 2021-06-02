@@ -1,0 +1,133 @@
+/* header */
+
+.menu {
+    display: inline-flex;
+    position: relative;
+    top: -10px;
+    width: 100%;
+    height: 80px;
+    background-color: #eee;
+}
+
+.logo {
+    width: 12%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+    font-family: "Brush Script MT";
+    font-size: medium;
+}
+
+.searchPart {
+    width: 55%;
+    text-align: center;
+    margin-top: 22px;
+}
+
+.search {
+    border: solid lightgray 3px;
+    border-radius: 8px;
+    width: 200px;
+    height: 40px;
+}
+
+.searchButton {
+    margin-left: 10px;
+    background-color: lightskyblue;
+    border: lightskyblue solid 2px;
+    border-radius: 4px;
+    color: white;
+    width: 100px;
+    height: 40px;
+}
+
+.searchButton:hover {
+    background-color: lightsteelblue;
+    border: lightsteelblue solid 2px;
+    color: #1F272A;
+}
+
+.buttonBar {
+    width: 20%;
+    display: inline-flex;
+}
+
+.home {
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+    /* position: relative;
+    top: -130px; */
+}
+
+.addPicture {
+    width: 45px;
+    height: 45px;
+    margin-top: 15px;
+    /* position: relative;
+    top: -125px; */
+}
+
+.profile {
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+    /* position: relative;
+    top: -130px; */
+}
+
+.logout {
+    width: 45px;
+    height: 45px;
+    margin-top: 15px;
+    /* position: relative;
+    top: -125px; */
+}
+
+div {
+    width: 20px;
+}
+
+.blank {
+    width: 80px;
+}
+
+
+/* footer */
+
+.footer {
+    text-align: center;
+    position: relative;
+    bottom: -5px;
+    width: 100%;
+    height: 110px;
+    background-color: #eee;
+    /* z-index: 9999; */
+}
+
+.footer a {
+    text-decoration: none;
+    color: #1F272A;
+}
+
+.footer a h1 {
+    font-family: "Brush Script MT";
+    font-size: xx-large;
+    margin: 0 auto;
+}
+
+.footer a h2 {
+    margin: 0 auto;
+    font-size: large;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.footer a p {
+    margin: 0 auto;
+    font-size: medium;
+    font-family: "Times New Roman", Times, serif;
+}

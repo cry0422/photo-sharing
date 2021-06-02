@@ -1,0 +1,106 @@
+body {
+    background: url(images/background.jpg) no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    color: black;
+    text-align: center;
+    font-family: "Brush Script MT";
+    font-size: xxx-large;
+    margin-top: 6%;
+}
+
+.titleOut {
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    border: #ddd solid 2px;
+    border-radius: 40%;
+}
+
+.titleOut h1 {
+    font-family: "Brush Script MT";
+    font-size: xxx-large;
+}
+
+.titleOut a {
+    font-size: xx-large;
+    color: blue;
+    font-family: "Lucida Handwriting", Cursive;
+}
+
+.loginForm {
+    border: gray solid 2px;
+    border-radius: 8px;
+    text-align: center;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    background: white;
+}
+
+.loginForm label {
+    font-family: "Lucida Handwriting", Cursive;
+    font-size: x-large;
+    color: lightslategray;
+}
+
+.account {
+    width: 30%;
+    height: 5%;
+    margin: 18px;
+}
+
+.signature {
+    width: 40%;
+    height: 10%;
+    margin-top: 18px;
+}
+
+.button {
+    border: 0;
+}
+
+.button p {
+    font-family: "Lucida Handwriting", Cursive;
+    font-size: x-large;
+    color: lightslategray;
+    margin-bottom: 2px;
+}
+
+.button input {
+    background-color: lightskyblue;
+    border: lightskyblue solid 2px;
+    border-radius: 4px;
+    color: white;
+    width: 30%;
+    height: 5%;
+    margin: 18px;
+}
+
+.button input:hover {
+    background-color: lightsteelblue;
+    border: lightsteelblue solid 2px;
+    color: #1F272A;
+}
+
+.line {
+    height: 1px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.line span {
+    position: relative;
+    top: -12px;
+    background: #fff;
+    padding: 0 20px;
+}

@@ -1,0 +1,305 @@
+/* add photo */
+
+.addphoto {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.addphoto h1 {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: xxx-large;
+    color: black;
+    margin-top: 25px;
+}
+
+.photoAddForm {
+    text-align: center;
+}
+
+.photoAddForm img {
+    width: 400px;
+    height: 300px;
+    border: 4px solid #ddd;
+    border-radius: 8px;
+}
+
+.fileselect {
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+
+.select {
+    border: 0;
+}
+
+.select input {
+    margin: 20px;
+}
+
+.alltags {
+    margin-bottom: 20px;
+    border: 0;
+}
+
+.tags {
+    width: 100px;
+    margin-left: 5px;
+}
+
+.button {
+    border: 0;
+}
+
+.button input {
+    background-color: lightskyblue;
+    border: lightskyblue solid 2px;
+    border-radius: 4px;
+    color: white;
+    width: 110px;
+    height: 50px;
+}
+
+.button input:hover {
+    background-color: lightsteelblue;
+    border: lightsteelblue solid 2px;
+    color: #1F272A;
+}
+
+.line {
+    height: 2px;
+    width: 80%;
+    border-top: 2px solid #ddd;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.line span {
+    position: relative;
+    top: -12px;
+    background: #fff;
+    padding: 0 20px;
+}
+
+
+/* homepage */
+
+.welcome {
+    width: 100%;
+    text-align: center;
+    color: cadetblue;
+}
+
+.welcome {
+    font-family: "Brush Script MT";
+    font-size: x-large;
+}
+
+.postedphoto {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 60px;
+    /* text-align: center; */
+    border: black solid 4px;
+    border-radius: 16px;
+}
+
+.postedphoto1 {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 60px;
+    /* text-align: center; */
+    border: black solid 4px;
+    border-radius: 16px;
+}
+
+.bar {
+    display: inline-flex;
+}
+
+.bar a {
+    text-decoration: none;
+}
+
+.poster {
+    font-size: large;
+    float: left;
+}
+
+.description {
+    width: 100%;
+    margin-top: 0;
+    color: orange;
+    font-size: medium;
+}
+
+.time {
+    width: 300px;
+    margin-top: 0;
+    color: gray;
+    font-size: medium;
+}
+
+.tagshow {
+    margin-left: 10px;
+    width: 80px;
+    color: lightskyblue;
+}
+
+.imgblank {
+    margin-left: 320px;
+}
+
+.likes {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    /* margin-left: 500px; */
+}
+
+.dislikes {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.likes1 {
+    width: 50px;
+    height: 50px;
+    margin-left: 700px;
+}
+
+.photo {
+    width: 100%;
+    height: 500px;
+}
+
+.photo_trans {
+    width: 300px;
+    height: 300px;
+    margin-left: 300px;
+    transform: rotateZ(90deg);
+}
+
+.likeNum {
+    /* position: relative;
+    left: 310px; */
+    font-size: medium;
+    margin-left: 5px;
+    margin-top: 30px;
+}
+
+
+/* profile page*/
+
+.profileBar {
+    width: 100%;
+    display: inline-flex;
+}
+
+.profile_header {
+    width: 20%;
+    margin-left: 30%;
+    margin-top: 20px;
+}
+
+.profile_header img {
+    border-radius: 50%;
+    border: black solid 4px;
+    width: 200px;
+    height: 200px;
+}
+
+.profile_details {
+    width: 50%;
+}
+
+.profile_details input {
+    background-color: lightskyblue;
+    border: lightskyblue solid 2px;
+    border-radius: 4px;
+    color: white;
+    width: 110px;
+    height: 40px;
+}
+
+.profile_details input:hover {
+    background-color: lightsteelblue;
+    border: lightsteelblue solid 2px;
+    color: #1F272A;
+}
+
+
+/* edit profile */
+
+.profileAddForm {
+    text-align: center;
+}
+
+.profileAddForm img {
+    width: 300px;
+    height: 300px;
+    border: 4px solid #ddd;
+    border-radius: 50%;
+}
+
+.name {
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+}
+
+.signature {
+    width: 400px;
+    height: 100px;
+}
+
+
+/* image */
+
+.comments {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.comPerson {
+    font-size: x-large;
+    margin: 0 auto;
+    color: orange;
+}
+
+.comment {
+    font-size: large;
+    text-align: left;
+}
+
+.postTime {
+    font-size: small;
+    text-align: left;
+    color: gray;
+}
+
+.comline {
+    height: 2px;
+    width: 100%;
+    border-top: 2px solid #ddd;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.commentForm {
+    text-align: center;
+}
+
+.addCom {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 100px;
+}
